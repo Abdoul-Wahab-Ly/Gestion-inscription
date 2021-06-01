@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+}
+
+.linkContainer {
+  width: 100vw;
+  height: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  background-color: #186bad;
+}
+
+.linkContainer ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 2rem;
+  flex-basis: 70%;
+  /* background-color: burlywood; */
+}
+
+.linkContainer ul a {
+  text-decoration: none;
+  padding: 2rem;
+  display: block;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.linkContainer ul li a span {
+  margin-left: 1rem;
+}
+
+img {
+  width: 100rem;
+  width: 10rem;
+  padding-left: 2rem;
+}
+
+.active {
+  border-bottom: 2px solid blue;
+}
+
+.accueil {
+  width: 100vw;
+  height: 86.5vh;
+  background-image: linear-gradient(
+      to top left,
+      #1f1f1fd3,
+      rgba(0, 0, 0, 0.856)
+    ),
+    url("./téléchargement.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: whitesmoke;
+  padding-top: 13rem;
+  padding-left: 13rem;
+}
+
+.accueil p {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.accueil p span {
+  font-weight: bold;
+}
+
+.plink {
+  width: 15rem;
+  height: 3rem;
+  background-color: whitesmoke;
+  border-radius: 1.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plink a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #186bad;
+  display: block;
+}
+
+.formationContainer {
+  width: 100vw;
+  padding: 5rem;
+  color: #186bad;
+}
+
+.cardContainer {
+  margin-top: 3rem;
+  width: 16rem;
+  height: 18rem;
+  background-color: #f1f4f6;
+  border-radius: 1rem;
+  box-shadow: 0 0.2rem 0.4rem rgba(230, 228, 228, 0.904);
+}
+
+.cardContainer img {
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  width: 100%;
+  height: 50%;
+  padding: 0;
+}
+
+.cardContent {
+  margin: 1.5rem;
+  font-size: 0.7rem;
+}
+
+.cardTitle {
+  font-size: 0.8rem;
+  color: #4dac58;
+  margin-bottom: 1rem;
+}
+
+.cardContent p {
+  margin-bottom: 1rem;
+}
+
+.cardContent a {
+  text-decoration: none;
+  color: #186bad;
+}
+
+.cardFormation {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, auto));
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.inpuntContainer {
+  width: 17rem;
+  border-bottom: 3px solid #bce0fd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+}
+
+.inpuntContainer p {
+  padding-bottom: 0;
+}
+
+.inpuntContainer p svg {
+  width: 1.3rem;
+
+  color: whitesmoke;
+}
+input {
+  width: 15rem;
+  height: 3rem;
+  border: none;
+  padding-left: 1rem;
+  font-size: 1.2rem;
+  background-color: transparent;
+  color: whitesmoke;
+}
+input:focus {
+  outline: none;
+  color: #186bad;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.212);
+  font-size: 1.2rem;
+}
+.inpuntContainer {
+  width: 15rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.inscrire h1 {
+  margin-bottom: 1.2rem;
+}
+
+.inscrire p {
+  margin-bottom: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 450;
+}
+
+.containerInscription {
+  padding-top: 2rem;
+  width: 100vw;
+  height: 86.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+
+  background-image: linear-gradient(
+      to top left,
+      #1f1f1fd3,
+      rgba(0, 0, 0, 0.856)
+    ),
+    url("./supplementaire.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.inscrptionForm {
+  width: 45rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: start;
+}
+
+button {
+  margin-top: 1.5rem;
+  border-radius: 5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  width: 10rem;
+  height: 2.5rem;
+  background-color: #4dac58;
+  color: whitesmoke;
+}
+
+.connexion {
+  width: 100vw;
+  height: 86.5vh;
+  padding: 7rem;
+  background-color: #ffffff;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.connexionForm {
+  color: #186bad;
+  width: 40rem;
+  padding: 3rem;
+}
+
+.connexionForm p {
+  margin-top: 0.7rem;
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+}
+
+.connexionImg,
+.connexionImg img {
+  width: 39.75rem;
+}
+
+.inpuntConnexion {
+  width: 24rem;
+  margin-top: 1.5rem;
+  border-bottom: 3px solid #bce0fd;
+}
+
+.inputcon {
+  color: #186bad;
+}
+
+.inputcon::placeholder {
+  color: #bce0fd;
+}
+
+.btnConnexion {
+  margin-top: 3rem;
+  width: 12rem;
+}
+
+.etudiant {
+  width: 100vw;
+  padding: 5rem;
+  color: #186bad;
+}
+
+.userContain {
+  width: 100%;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.userContain p a {
+  text-decoration: none;
+  color: red;
+
+  font-weight: 500;
+}
+.userName {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+}
+
+.circle {
+  width: 4rem;
+  height: 4rem;
+  background-color: brown;
+  border-radius: 50%;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+}
+
+.name {
+  font-weight: 500;
+  color: #186bad;
+}
+
+.etudiantInfo h1 {
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.etudiantInfo p {
+  margin-bottom: 1rem;
+  color: #4dac58;
+  font-size: 1.3rem;
+}
+.etudiantInfo p span {
+  font-weight: 500;
+  color: #186bad;
+}
