@@ -5,13 +5,14 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 14px;
   font-family: Helvetica, sans-serif;
 }
 
 .linkContainer {
   width: 100vw;
-  height: 6rem;
+  height: 15vh;
+  overflow: hidden;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -55,7 +56,7 @@ img {
 
 .accueil {
   width: 100vw;
-  height: 86.5vh;
+  height: 85vh;
   background-image: linear-gradient(
       to top left,
       #1f1f1fd3,
@@ -66,7 +67,7 @@ img {
   background-position: center;
   background-size: cover;
   color: whitesmoke;
-  padding-top: 13rem;
+  padding-top: 10rem;
   padding-left: 13rem;
 }
 
@@ -202,7 +203,7 @@ input::placeholder {
 .containerInscription {
   padding-top: 2rem;
   width: 100vw;
-  height: 86.5vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -242,12 +243,14 @@ button {
 
 .connexion {
   width: 100vw;
-  height: 86.5vh;
+  height: 85vh;
   padding: 7rem;
   background-color: #ffffff;
-
+justify-items: center;
+align-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  overflow-x: hidden;
 }
 
 .connexionForm {
@@ -264,7 +267,7 @@ button {
 
 .connexionImg,
 .connexionImg img {
-  width: 39.75rem;
+  width: 39.5rem;
 }
 
 .inpuntConnexion {
