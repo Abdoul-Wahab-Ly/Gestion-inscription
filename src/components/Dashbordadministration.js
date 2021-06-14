@@ -12,8 +12,8 @@ function Dashbordadministration(){
                     <th>Numéro</th>
                     <th>Nom et Prenom</th>
                     <th>Date d'inscription</th>
-                    <th>Filliere choisie</th>
-                    <th>Annee</th>
+                    <th>Fillière choisie</th>
+                    <th>Année</th>
                     <th className="thAction">Action</th>
                 </tr>
 
@@ -23,7 +23,7 @@ function Dashbordadministration(){
                     <td>29/05/2019</td>
                     <td>Web developpement</td>
                     <td>L1</td>
-                    <td className="cntbtn"><button>Accepte</button> <button>Rejete</button></td>
+                    <td className="cntbtn"><button>Accepter</button> <button>Rejeter</button></td>
                 </tr>
 
                 <tr>
@@ -32,7 +32,7 @@ function Dashbordadministration(){
                     <td>29/05/2019</td>
                     <td>Web developpement</td>
                     <td>L1</td>
-                    <td className="cntbtn"><button>Accepte</button> <button>Rejete</button></td>
+                    <td className="cntbtn"><button>Accepter</button> <button>Rejeter</button></td>
                 </tr>
 
                 <tr>
