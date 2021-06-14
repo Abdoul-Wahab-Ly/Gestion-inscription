@@ -371,7 +371,7 @@ align-items: center;
 
 .carsTable td,
 .carsTable th {
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
   padding: 8px;
   width: 15%;
   text-align: center;
