@@ -8,6 +8,7 @@ import Faq from './components/Faq';
 import Formation from './components/Formation';
 import ErrorPage from './components/ErrorPage';
 import DashbordEtudiant from './components/DashbordEtudiant';
+import Dashbordadministration from './components/Dashbordadministration';
 import './App.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
               <Route strict path="/faq" component={Faq} />
               <Route strict path="/formation" component={Formation} />
               <Route strict path="/etudiant" component={DashbordEtudiant} />
+              <Route strict path="/administration" component={Dashbordadministration} />
               <Route component={ErrorPage} />
           </Switch>
 

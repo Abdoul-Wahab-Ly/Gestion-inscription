@@ -351,3 +351,55 @@ align-items: center;
   font-weight: 500;
   color: #186bad;
 }
+
+.administration{
+  padding: 3rem;
+}
+
+.administration h1 {
+  margin-bottom: 2rem;
+  font-weight: 500;
+  color: #186bad;
+}
+
+.carsTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.carsTable td,
+.carsTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 15%;
+  text-align: center;
+}
+
+.carsTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #186bad;
+  color: white;
+  
+}
+tr:nth-child(even) {background: #f1f4f6}
+
+.ctnbtn{
+  display: flex;
+  flex-direction: column;
+}
+
+.cntbtn button{
+  margin-top: .5rem;
+  border-radius: 5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  width: 5rem;
+  height: 2.5rem;
+  background-color: #4dac58;
+  color: whitesmoke;
+}
+
