@@ -8,6 +8,11 @@ function Formation() {
             <div className="cardFormation">
 
                 <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
 
             </div>
         </div>

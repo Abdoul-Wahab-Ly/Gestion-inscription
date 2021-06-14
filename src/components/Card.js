@@ -14,6 +14,8 @@ function Card() {
             </div>
              
         </div>
+
+        
     )
 }
 
