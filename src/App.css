@@ -186,7 +186,7 @@ input:focus {
 }
 
 input::placeholder {
-  color: rgba(255, 255, 255, 0.212);
+  color: rgba(255, 255, 255, 0.932);
   font-size: 1.2rem;
 }
 .inpuntContainer {
