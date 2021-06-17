@@ -23,8 +23,7 @@ function Formation() {
                 <Card/>
                 <Card/>
                 <Card/>
-                <Card/>
-                <Card/>
+                
 
             </div>
         </div>
