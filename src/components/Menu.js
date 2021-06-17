@@ -1,3 +1,11 @@
+/**
+ * C'est le composant Menu qui eat le header de notre application web
+ * qui permet de naviguer entre les pages
+ */
+
+//on fait l'importation du bibliotheque React et celle
+// de react-router-dom pour les link et NavLink
+// et de react-icons
 import React from 'react';
 import {Link, NavLink} from 'react-router-dom';
 import Img from './Img';
@@ -9,6 +17,9 @@ import  '../App.css';
 
 
 const Menu = () =>{
+        //Cet composant fait le lien sur 
+        //les composants de l'application
+
     return(
         <nav className="linkContainer">
             <Img/>

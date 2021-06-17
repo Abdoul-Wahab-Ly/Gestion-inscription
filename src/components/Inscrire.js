@@ -1,9 +1,20 @@
+/**
+ * C'est le composant Inscrire.js 
+ * qui permet les etudiants de s'inscrire
+ */
+
+//on fait l'importation du bibliotheque React et celle
+// de react-icons/im pour les icones
 import React from 'react';
 import { ImUser } from "react-icons/im";
 
 
 
 const Inscrire = () => {
+        // Cette composant return la formulaire d'inscription
+        // Et un boutton submit qui permet de valider l'inscription apres avoir bien rempli les champs 
+
+
     return(
         <div className="containerInscription">
         <div className="inscrire">
@@ -42,6 +53,8 @@ const Inscrire = () => {
                 <button>S'isnscrire</button>
                 
             </form>
+
+            <p className="copyy">Copyright © 2021 SUP'INFO DAKAR | Tous droits réservés</p>
         </div>
         </div>
     )
