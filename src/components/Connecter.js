@@ -13,6 +13,8 @@ import {Component} from "react"
 
 class Connecter extends Component {
 
+
+
   connection=async(mail,mdp)=>{
     const response = await fetch(`/connection/etudiant/${mail}/${mdp}`)
     let body = await response.json()
@@ -44,6 +46,12 @@ class Connecter extends Component {
     }}
 
     render(){
+        
+
+
+    //Cet composant renvoie la formulaire de connection
+    // avec le button de validation si les champs sont correctes
+
     return(
         <div className="connexion">
             <div className="connexionForm">
@@ -72,7 +80,7 @@ class Connecter extends Component {
         </div>
     )
 
-}
-}
 
-export default Connecter
+}
+}
+export default Connecter;
