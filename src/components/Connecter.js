@@ -38,6 +38,7 @@ const Connecter = () => {
             <div className="connexionImg">
                 <img src={cc0} alt="connexion"/>
             </div>
+            <p className="copyy">Copyright © 2021 SUP'INFO DAKAR | Tous droits réservés</p>
         </div>
     )
 }

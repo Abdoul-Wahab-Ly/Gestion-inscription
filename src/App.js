@@ -36,7 +36,6 @@ function App() {
               <Route component={ErrorPage} />
           </Switch>
 
-          
     </BrowserRouter>
   );
 }

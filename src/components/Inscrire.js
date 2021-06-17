@@ -53,6 +53,8 @@ const Inscrire = () => {
                 <button>S'isnscrire</button>
                 
             </form>
+
+            <p className="copyy">Copyright © 2021 SUP'INFO DAKAR | Tous droits réservés</p>
         </div>
         </div>
     )

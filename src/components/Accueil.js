@@ -22,6 +22,7 @@ const Accueil = () => {
             hauteur de vos attentes</p>
             
             <p className="plink"> <Link to="/formation">Voir nos formations</Link></p>
+            <p className="copyy">Copyright © 2021 SUP'INFO DAKAR | Tous droits réservés</p>
         </div>
     )
 }

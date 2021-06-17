@@ -56,7 +56,6 @@ img {
 }
 
 .accueil {
-
   width: 100vw;
   height: 85vh;
   background-image: linear-gradient(
@@ -149,9 +148,8 @@ img {
   gap: 2rem;
 }
 
-.formationContainer{
+.formationContainer {
   width: 100vw;
-
 }
 
 .inpuntContainer {
@@ -253,8 +251,8 @@ button {
   height: 85vh;
   padding: 7rem;
   background-color: #ffffff;
-justify-items: center;
-align-items: center;
+  justify-items: center;
+  align-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
   overflow-x: hidden;
@@ -359,7 +357,7 @@ align-items: center;
   color: #186bad;
 }
 
-.administration{
+.administration {
   padding: 3rem;
 }
 
@@ -389,17 +387,18 @@ align-items: center;
   padding-bottom: 12px;
   background-color: #186bad;
   color: white;
-  
 }
-tr:nth-child(even) {background: #f1f4f6}
+tr:nth-child(even) {
+  background: #f1f4f6;
+}
 
-.ctnbtn{
+.ctnbtn {
   display: flex;
   flex-direction: column;
 }
 
-.cntbtn button{
-  margin-top: .5rem;
+.cntbtn button {
+  margin-top: 0.5rem;
   border-radius: 5rem;
   font-size: 0.9rem;
   cursor: pointer;
@@ -410,3 +409,33 @@ tr:nth-child(even) {background: #f1f4f6}
   color: whitesmoke;
 }
 
+.accueil .copyy {
+  font-size: 0.8rem;
+  color: #186bad;
+}
+
+.inscrire .copyy {
+  font-size: 0.8rem;
+  color: #186bad;
+  margin-top: 2rem;
+}
+
+.connexion .copyy {
+  font-size: 0.8rem;
+  color: #186bad;
+  position: absolute;
+  bottom: 0.7rem;
+  left: 10rem;
+}
+
+.accord {
+  width: 70vw;
+  margin: 0 auto;
+  transform: translateY(30%);
+}
+
+.accord .copyy {
+  font-size: 0.8rem;
+  color: #186bad;
+  margin-top: 3rem;
+}
