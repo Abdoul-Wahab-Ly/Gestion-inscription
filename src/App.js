@@ -1,3 +1,12 @@
+/**
+ * C'est le composant principal qui nous permet
+ * de faire tous les relations entre les composants 
+ * de l'application en faisant des iomportations
+ */
+
+// on fait l'importation du bibliotheque React et tous les composants
+// dont on veut defiler entre les pages et l'installation de react-router-dom
+// et qui nous permet d'utiliser les composants BrowserRouter, Route et Switch
 import React from 'react';
 import Menu from './components/Menu';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';

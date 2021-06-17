@@ -1,8 +1,19 @@
+/**
+ * C'est le composant Connecter de notre application web
+ * qui permet les utilisateurs deja inscritent
+ *  de se connecter et se rendre sur leur  compte
+ */
+
+
+//on fait l'importation du bibliotheque React et celle
+// d'image 
 import React from 'react';
 import cc0 from './cc0.png';
 
 
 const Connecter = () => {
+    //Cet composant renvoie la formulaire de connection
+    // avec le button de validation si les champs sont correctes
     return(
         <div className="connexion">
             <div className="connexionForm">

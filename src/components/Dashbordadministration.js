@@ -1,7 +1,20 @@
+/**
+ * C'est le composant Dashbordadministration de notre application web
+ * qui permet les administrateurs de voir les informations sur les
+ * etudiants une fois connecter
+ */
+
+//on fait l'importation du bibliotheque React et celle
+// du composant Userhhead pour l'entete des dashbord qui permet
+// d'afficher le statut et un button de deconnexion
 import React from 'react'
 import Userhead from './Userhead'
 
 function Dashbordadministration(){
+    // Cet composant return une liste contenant
+    // des informations sur les etudiants et voir la possibilite
+    // d'accepter ou rejeter la demande d'admission des etudiants
+
     return(
         <div className="administration">
             <Userhead/>

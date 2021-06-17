@@ -1,5 +1,11 @@
-import React from 'react';
+/**
+ * C'est le composant Faq de notre application web
+ * Foire aux questions
+ */
 
+//on fait l'importation du bibliotheque React et celle
+// de react-accessible-accordion pour la foire
+import React from 'react';
 import {
     Accordion,
     AccordionItem,
@@ -8,7 +14,7 @@ import {
     AccordionItemPanel,
 } from 'react-accessible-accordion';
 
-// Demo styles, see 'Styles' section below for some notes on use.
+// Importation du fichier css de react-accessible-accordion
 import 'react-accessible-accordion/dist/fancy-example.css';
 
 
