@@ -409,6 +409,9 @@ tr:nth-child(even) {
   color: whitesmoke;
 }
 
+.cntbtn button.rejet {
+  background-color: rgb(241, 43, 43);
+}
 .accueil .copyy {
   font-size: 0.8rem;
   color: #186bad;

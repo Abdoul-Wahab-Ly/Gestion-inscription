@@ -36,7 +36,7 @@ function Dashbordadministration(){
                     <td>29/05/2019</td>
                     <td>Web developpement</td>
                     <td>L1</td>
-                    <td className="cntbtn"><button>Accepter</button> <button>Rejeter</button></td>
+                    <td className="cntbtn"><button>Accepter</button> <button className="rejet">Rejeter</button></td>
                 </tr>
 
                 <tr>
@@ -45,7 +45,7 @@ function Dashbordadministration(){
                     <td>29/05/2019</td>
                     <td>Web developpement</td>
                     <td>L1</td>
-                    <td className="cntbtn"><button>Accepter</button> <button>Rejeter</button></td>
+                    <td className="cntbtn"><button>Accepter</button> <button className="rejet">Rejeter</button></td>
                 </tr>
 
                 <tr>
@@ -54,7 +54,7 @@ function Dashbordadministration(){
                     <td>29/05/2019</td>
                     <td>Web developpement</td>
                     <td>L1</td>
-                    <td className="cntbtn"><button>Accepter</button> <button>Rejeter</button></td>
+                    <td className="cntbtn"><button>Accepter</button> <button className="rejet">Rejeter</button></td>
                 </tr>
             </table>
         </div>
